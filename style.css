@@ -100,7 +100,7 @@ nav {
   flex-direction: column;
   align-items: center;
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-size: 80px;
   font-weight: 900;
   color: #f3f3ff;
   line-height: 1.2;
@@ -115,9 +115,9 @@ nav {
 .decs p {
   text-align: center;
   font-family: 'Sora', sans-serif;
-  font-size: clamp(0.95rem, 2vw, 1.1rem);
-  font-weight: 400;
-  color: #555e7a;
+  font-size: 20px;
+  font-weight: 600;
+  color: #9a9a9b;
   line-height: 1.8;
   max-width: 520px;
 }
@@ -189,11 +189,18 @@ nav {
 }
 
 
+.recomen{
+  margin-top: 60px;
+  margin-left: 90px;
+  font-size: 24px;
+  color: #cacaca;
+
+}
+
 .tools-container {
   display: flex;
   justify-content: space-around;
-  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
 
@@ -201,7 +208,7 @@ nav {
   width: 350px;
   padding: 20px;
   margin-left: 50px;
-  margin-top: 70px;
+  margin-top: 30px;
   border-radius: 7px;
   background: #0f1f3d2d;
   color: #fff;
