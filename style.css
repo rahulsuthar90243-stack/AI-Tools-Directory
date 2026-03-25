@@ -33,9 +33,9 @@ nav {
   justify-content: space-between;
   padding: 7px 150px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1000; */
   border-bottom: 1px solid rgb(54, 54, 54);
 }
 
@@ -190,29 +190,35 @@ nav {
 
 
 .recomen{
-  margin-top: 60px;
-  margin-left: 90px;
-  font-size: 24px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
   color: #cacaca;
-
+  font-weight: 600;
 }
 
 .tools-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
 }
 
 
 .card {
-  width: 350px;
-  padding: 20px;
-  margin-left: 50px;
-  margin-top: 30px;
-  border-radius: 7px;
+  width: 300px;
+  padding: 15px;
+  /* margin-left: 50px; */
+  /* margin-top: 30px; */
+  border-radius: 10px;
   background: #0f1f3d2d;
   color: #fff;
-  position: relative;
+  /* position: relative; */
   border: 2px solid #fff;
   transition: transform 0.2s;
   cursor: pointer;
@@ -220,7 +226,8 @@ nav {
 
 .card:hover{
   border: 2px solid #6366f1;
- transform: translateY(-10px);
+ /* transform: translateY(-10px); */
+ transform: scale(1.05);
 }
 
 
@@ -284,4 +291,26 @@ nav {
   align-items: center;
   justify-content: center;
   color: #22c55e;
+}
+
+@media (max-width: 1314px) {
+
+
+
+  .tools-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .tools-container {
+    margin-left: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .tools-container {
+    grid-template-columns: 1fr;
+  }
 }
