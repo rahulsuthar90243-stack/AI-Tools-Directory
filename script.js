@@ -37,16 +37,15 @@ function displayTools(data) {
   });
 };
 
-
+// displayTools(tools);
 document.querySelector("#search").addEventListener("input", function () {
   const value = this.value.toLowerCase().trim();
   if (value === "") {
-    document.getElementById("tools-container").innerHTML = "";
+    document.getElementById(".tools-container").innerHTML = "";
     return;
   }
 
   const filtered = tools.filter((tool) =>
-    // nametool.name.toLowerCase().includes(value),
     tool.category.toLowerCase().includes(value),
   );
 
@@ -57,3 +56,4 @@ const all = document.querySelector("#all");
 all.addEventListener("click", () => {
   displayTools(tools);
 });
+
