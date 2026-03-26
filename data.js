@@ -580,4 +580,249 @@ const tools = [
     category: "audio",
     link: "https://boomy.com",
   },
+
+
+  // ─── WEBSITE TOOLS ─────────────────────────────────────────────────────────────
+
+{
+    name: "Wix ADI",
+    desc: "AI website builder that creates a full site automatically",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=wix.com",
+    category: "website",
+    link: "https://www.wix.com",
+  },
+  {
+    name: "Framer AI",
+    desc: "Create modern websites with AI from simple text prompts",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=framer.com",
+    category: "website",
+    link: "https://www.framer.com",
+  },
+  {
+    name: "Durable",
+    desc: "Generate a complete business website in seconds using AI",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=durable.co",
+    category: "website",
+    link: "https://durable.co",
+  },
+  {
+    name: "10Web",
+    desc: "AI-powered WordPress website builder and hosting platform",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=10web.io",
+    category: "website",
+    link: "https://10web.io",
+  },
+  {
+    name: "Hostinger AI Builder",
+    desc: "Create websites easily with AI tools and hosting included",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=hostinger.com",
+    category: "website",
+    link: "https://www.hostinger.com",
+  },
+  {
+    name: "Bookmark AiDA",
+    desc: "AI design assistant that builds websites quickly",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=bookmark.com",
+    category: "website",
+    link: "https://www.bookmark.com",
+  },
+  {
+    name: "Zyro AI Website Builder",
+    desc: "Simple AI website builder with templates and tools",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=zyro.com",
+    category: "website",
+    link: "https://zyro.com",
+  },
+  {
+    name: "Squarespace AI",
+    desc: "Build professional websites with AI content and design",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=squarespace.com",
+    category: "website",
+    link: "https://www.squarespace.com",
+  },
+  {
+    name: "Webflow AI",
+    desc: "Advanced website builder with AI-assisted design and CMS",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=webflow.com",
+    category: "website",
+    link: "https://webflow.com",
+  },
+  {
+    name: "Jimdo Dolphin",
+    desc: "AI website creator that builds sites based on user answers",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=jimdo.com",
+    category: "website",
+    link: "https://www.jimdo.com",
+  },
+
+// ─── APP TOOLS ─────────────────────────────────────────────────────────────
+
+
+   {
+    name: "Adalo",
+    desc: "Build mobile apps without coding using drag-and-drop",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=adalo.com",
+    category: "app",
+    link: "https://www.adalo.com",
+  },
+  {
+    name: "Glide",
+    desc: "Create powerful apps from Google Sheets using AI",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=glideapps.com",
+    category: "app",
+    link: "https://www.glideapps.com",
+  },
+  {
+    name: "Thunkable",
+    desc: "Drag-and-drop builder for Android and iOS apps",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=thunkable.com",
+    category: "app",
+    link: "https://www.thunkable.com",
+  },
+  {
+    name: "FlutterFlow",
+    desc: "Visual app builder powered by Flutter and AI tools",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=flutterflow.io",
+    category: "app",
+    link: "https://flutterflow.io",
+  },
+  {
+    name: "Draftbit",
+    desc: "Build and launch React Native apps visually",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=draftbit.com",
+    category: "app",
+    link: "https://draftbit.com",
+  },
+  {
+    name: "Appgyver",
+    desc: "No-code platform to build apps for all devices",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=appgyver.com",
+    category: "app",
+    link: "https://www.appgyver.com",
+  },
+  {
+    name: "Bravo Studio",
+    desc: "Turn Figma designs into real mobile apps",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=bravostudio.app",
+    category: "app",
+    link: "https://www.bravostudio.app",
+  },
+  {
+    name: "BuildFire",
+    desc: "AI-powered platform to create custom mobile apps",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=buildfire.com",
+    category: "app",
+    link: "https://buildfire.com",
+  },
+  {
+    name: "Appy Pie",
+    desc: "Create apps quickly with no-code AI builder",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=appypie.com",
+    category: "app",
+    link: "https://www.appypie.com",
+  },
+  {
+    name: "Kodular",
+    desc: "Build Android apps using a visual programming interface",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=kodular.io",
+    category: "app",
+    link: "https://kodular.io",
+  },
+
+// ─── MARKETING TOOLS ─────────────────────────────────────────────────────────────
+
+
+   {
+    name: "Jasper",
+    desc: "AI tool for marketing copy, ads, and content creation",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=jasper.ai",
+    category: "marketing",
+    link: "https://www.jasper.ai",
+  },
+  {
+    name: "Copy.ai",
+    desc: "Generate marketing content like ads, emails, and blogs",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=copy.ai",
+    category: "marketing",
+    link: "https://www.copy.ai",
+  },
+  {
+    name: "Ocoya",
+    desc: "AI tool for social media marketing and scheduling",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=ocoya.com",
+    category: "marketing",
+    link: "https://www.ocoya.com",
+  },
+
+// ─── EDUCATION TOOLS ─────────────────────────────────────────────────────────────
+
+    {
+    name: "Khanmigo",
+    desc: "AI tutor by Khan Academy for personalized learning",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=khanacademy.org",
+    category: "education",
+    link: "https://www.khanacademy.org",
+  },
+  {
+    name: "Socratic",
+    desc: "Google AI app to help students solve problems",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=socratic.org",
+    category: "education",
+    link: "https://socratic.org",
+  },
+  {
+    name: "Quizlet AI",
+    desc: "Create flashcards and study sets using AI",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=quizlet.com",
+    category: "education",
+    link: "https://quizlet.com",
+  },
+  
+  // ─── EMAIL TOOLS ─────────────────────────────────────────────────────────────
+
+    {
+    name: "Mailchimp AI",
+    desc: "AI-powered email marketing and automation",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=mailchimp.com",
+    category: "email",
+    link: "https://mailchimp.com",
+  },
+  {
+    name: "Smartwriter",
+    desc: "Generate personalized cold emails using AI",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=smartwriter.ai",
+    category: "email",
+    link: "https://www.smartwriter.ai",
+  },
+  {
+    name: "Lavender",
+    desc: "Improve email writing and response rates with AI",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=lavender.ai",
+    category: "email",
+    link: "https://www.lavender.ai",
+  },
+
+// ─── SEO TOOLS ─────────────────────────────────────────────────────────────
+
+  {
+    name: "Surfer SEO",
+    desc: "Optimize content with AI-driven SEO suggestions",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=surferseo.com",
+    category: "SEO",
+    link: "https://surferseo.com",
+  },
+  {
+    name: "NeuronWriter",
+    desc: "AI content editor for better Google rankings",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=neuronwriter.com",
+    category: "SEO",
+    link: "https://neuronwriter.com",
+  },
+  {
+    name: "Scalenut",
+    desc: "All-in-one AI SEO and content marketing platform",
+    img: "https://www.google.com/s2/favicons?sz=64&domain=scalenut.com",
+    category: "SEO",
+    link: "https://www.scalenut.com",
+  }
 ];
