@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Primary';
+}
+
+@font-face {
+    font-family: 'Primary';
+    src: url(./Font/GeneralSans-Regular.otf);
 }
 
 #main{
@@ -33,9 +38,6 @@ nav {
   justify-content: space-between;
   padding: 7px 150px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
-  /* position: sticky;
-  top: 0;
-  z-index: 1000; */
   border-bottom: 1px solid rgb(54, 54, 54);
 }
 
@@ -48,8 +50,8 @@ nav {
 }
 
 .logo img {
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   border-radius: 8px;
 }
@@ -65,7 +67,6 @@ nav {
   padding: 10px 24px;
   background: #1a1a2e00;
   color: #ffffff;
-  font-family: 'Sora', sans-serif;
   font-size: 0.875rem;
   font-weight: 600;
   border: none;
@@ -99,7 +100,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Playfair Display', serif;
   font-size: 80px;
   font-weight: 900;
   color: #f3f3ff;
@@ -116,7 +116,7 @@ nav {
   text-align: center;
   font-family: 'Sora', sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #9a9a9b;
   line-height: 1.8;
   max-width: 520px;
@@ -191,7 +191,6 @@ nav {
 
 .recomen{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
   font-size: 1.6rem;
@@ -213,12 +212,9 @@ nav {
 .card {
   width: 300px;
   padding: 15px;
-  /* margin-left: 50px; */
-  /* margin-top: 30px; */
   border-radius: 10px;
   background: #0f1f3d2d;
   color: #fff;
-  /* position: relative; */
   border: 2px solid #fff;
   transition: transform 0.2s;
   cursor: pointer;
@@ -226,8 +222,7 @@ nav {
 
 .card:hover{
   border: 2px solid #6366f1;
- /* transform: translateY(-10px); */
- transform: scale(1.05);
+ transform: translateY(-7px)
 }
 
 
@@ -313,4 +308,16 @@ nav {
   .tools-container {
     grid-template-columns: 1fr;
   }
+}
+
+.tah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #838383;
+  line-height: 1.2;
+  margin-left: 40px;
+  letter-spacing: -0.5px;
 }
