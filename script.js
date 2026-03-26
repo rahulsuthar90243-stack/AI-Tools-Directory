@@ -1,14 +1,22 @@
 
 const search = document.querySelector("#search");
 
+// Show only 10 tools on page load
+function showInitialTools(){
+  const firstTen = tools.slice(0, 10);
+  displayTools(firstTen);
+}
+
+
+
 function displayTools(data) {
   const container = document.querySelector(".tools-container");
   container.innerHTML = "";
 
-  if (data.lenght == 0) {
-    container.innerHTML = "<p>No tool found</p>";
-    return;
-  }
+ if (data.length === 0) {
+  container.innerHTML = `<div class="tah">No tool found</div>`;
+  return;
+}
 
   data.forEach((tool) => {
     const card = `
@@ -41,19 +49,42 @@ function displayTools(data) {
 document.querySelector("#search").addEventListener("input", function () {
   const value = this.value.toLowerCase().trim();
   if (value === "") {
-    document.getElementById(".tools-container").innerHTML = "";
+    showInitialTools();
     return;
   }
 
   const filtered = tools.filter((tool) =>
-    tool.category.toLowerCase().includes(value),
+    tool.name.toLowerCase().includes(value) ||
+    tool.category.toLowerCase().includes(value)
   );
 
   displayTools(filtered);
 });
 
-const all = document.querySelector("#all");
-all.addEventListener("click", () => {
-  displayTools(tools);
-});
+// const all = document.querySelector(".all");
+// all.addEventListener("click", () => {
+//   displayTools(tools);
+// });
 
+
+showInitialTools();
+
+
+const buttons = document.querySelectorAll("#button button");
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const category = btn.className.toLowerCase();
+
+    if (category === "all") {
+      displayTools(tools);
+      return;
+    }
+
+    const filtered = tools.filter(tool =>
+      tool.category.toLowerCase() === category
+    );
+
+    displayTools(filtered);
+  });
+});
