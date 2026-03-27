@@ -321,3 +321,443 @@ nav {
   margin-left: 40px;
   letter-spacing: -0.5px;
 }
+
+
+/* Additional Responsive Media Queries */
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+  .tools-container {
+    max-width: 1200px;
+    gap: 35px;
+  }
+  
+  .card {
+    width: 280px;
+  }
+}
+
+/* Desktop (992px - 1199px) */
+@media (max-width: 1199px) {
+  nav {
+    padding: 7px 80px;
+  }
+  
+  .text h1 {
+    font-size: 70px;
+  }
+  
+  .decs p {
+    font-size: 18px;
+    max-width: 500px;
+  }
+  
+  .tools-container {
+    gap: 25px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 280px;
+  }
+}
+
+/* Tablet Landscape (768px - 991px) */
+@media (max-width: 991px) {
+  nav {
+    padding: 7px 50px;
+  }
+  
+  .main-text {
+    padding: 60px 30px;
+  }
+  
+  .text h1 {
+    font-size: 60px;
+  }
+  
+  .decs p {
+    font-size: 17px;
+    max-width: 450px;
+  }
+  
+  .search {
+    max-width: 650px;
+    margin: 1.5rem auto;
+  }
+  
+  #search {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+  
+  #button button {
+    padding: 8px 20px;
+    font-size: 0.85rem;
+  }
+  
+  .recomen {
+    font-size: 1.4rem;
+  }
+  
+  .tools-container {
+    gap: 20px;
+  }
+  
+  .card {
+    width: 260px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .desc {
+    font-size: 13px;
+  }
+  
+  .tah {
+    font-size: 26px;
+    margin-left: 20px;
+  }
+}
+
+/* Tablet Portrait (576px - 767px) */
+@media (max-width: 767px) {
+  nav {
+    padding: 7px 30px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo h3 {
+    font-size: 0.9rem;
+  }
+  
+  .login {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
+  
+  .main-text {
+    padding: 50px 20px;
+    gap: 15px;
+  }
+  
+  .text h1 {
+    font-size: 45px;
+  }
+  
+  .decs p {
+    font-size: 16px;
+    max-width: 400px;
+    line-height: 1.6;
+  }
+  
+  .search {
+    max-width: 500px;
+    margin: 1.2rem auto;
+  }
+  
+  #search {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+  
+  #button {
+    gap: 10px;
+  }
+  
+  #button button {
+    padding: 6px 16px;
+    font-size: 0.8rem;
+  }
+  
+  .recomen {
+    font-size: 1.2rem;
+  }
+  
+  .card {
+    width: 240px;
+  }
+  
+  .title img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .btn {
+    padding: 4px 12px;
+    font-size: 13px;
+  }
+  
+  .btn.fill {
+    font-size: 16px;
+  }
+  
+  .icon-btn {
+    width: 35px;
+    height: 28px;
+  }
+  
+  .tah {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Mobile Landscape (480px - 575px) */
+@media (max-width: 575px) {
+  nav {
+    padding: 7px 20px;
+  }
+  
+  .logo img {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .logo h3 {
+    font-size: 0.85rem;
+  }
+  
+  .login {
+    padding: 6px 16px;
+    font-size: 0.75rem;
+  }
+  
+  .main-text {
+    padding: 40px 15px;
+    gap: 12px;
+  }
+  
+  .text h1 {
+    font-size: 32px;
+  }
+  
+  .decs p {
+    font-size: 14px;
+    max-width: 320px;
+  }
+  
+  .search {
+    max-width: 400px;
+    margin: 1rem auto;
+  }
+  
+  #search {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+  
+  #button {
+    gap: 8px;
+  }
+  
+  #button button {
+    padding: 5px 12px;
+    font-size: 0.75rem;
+  }
+  
+  .recomen {
+    font-size: 1rem;
+  }
+  
+  .card {
+    width: 220px;
+  }
+  
+  .title {
+    font-size: 16px;
+    gap: 8px;
+  }
+  
+  .title img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .desc {
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  
+  .actions {
+    gap: 8px;
+  }
+  
+  .btn {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+  
+  .btn.fill {
+    font-size: 14px;
+  }
+  
+  .icon-btn {
+    width: 32px;
+    height: 26px;
+  }
+  
+  .tah {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile Portrait (320px - 479px) */
+@media (max-width: 479px) {
+  nav {
+    padding: 7px 15px;
+  }
+  
+  .logo img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .logo h3 {
+    font-size: 0.75rem;
+  }
+  
+  .login {
+    padding: 5px 12px;
+    font-size: 0.7rem;
+  }
+  
+  .main-text {
+    padding: 30px 12px;
+  }
+  
+  .text h1 {
+    font-size: 28px;
+  }
+  
+  .decs p {
+    font-size: 13px;
+    max-width: 280px;
+  }
+  
+  .search {
+    max-width: 300px;
+  }
+  
+  #search {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  #button button {
+    padding: 4px 10px;
+    font-size: 0.7rem;
+  }
+  
+  .recomen {
+    font-size: 0.9rem;
+  }
+  
+  .card {
+    width: 250px;
+  }
+  
+  .title {
+    font-size: 14px;
+  }
+  
+  .title img {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .desc {
+    font-size: 11px;
+  }
+  
+  .btn {
+    padding: 2px 8px;
+    font-size: 11px;
+  }
+  
+  .btn.fill {
+    font-size: 12px;
+  }
+  
+  .icon-btn {
+    width: 28px;
+    height: 24px;
+  }
+  
+  .tah {
+    font-size: 18px;
+  }
+}
+
+/* Height-based adjustments for better experience on shorter screens */
+@media (max-height: 700px) {
+  .main-text {
+    padding: 40px 40px;
+  }
+  
+  .text h1 {
+    font-size: 60px;
+  }
+  
+  .search {
+    margin: 1rem auto;
+  }
+}
+
+@media (max-height: 600px) {
+  .main-text {
+    padding: 30px 40px;
+  }
+  
+  .text h1 {
+    font-size: 50px;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .card:hover {
+    transform: none;
+  }
+  
+  .card:active {
+    transform: translateY(-7px);
+  }
+  
+  button:hover {
+    transform: none;
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+}
+
+/* Print styles (optional) */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  nav, 
+  .search, 
+  .recomen,
+  .actions {
+    display: none;
+  }
+  
+  .card {
+    break-inside: avoid;
+    border: 1px solid #ddd;
+  }
+}
